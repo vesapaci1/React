@@ -26,7 +26,7 @@
 
 //Using Parent & Child Components
 import { useState } from "react";
-import Child from './Child';
+import Child from './src/Child';
 
 function App() {
   const [count, setCount] = useState(0);
